@@ -1,0 +1,68 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #247BA0;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.list {
+  list-style-type: none;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.list__item {
+  cursor: pointer;
+  padding: 7px 10px;
+}
+
+.active {
+  text-decoration: underline #F25F5C;
+}
+
+.form__container {
+  border-radius: 5px;
+  background-color: #FFE066;
+  border: 2px solid rgb(146, 127, 49);
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px -2px #585757BF;
+}
+
+.form__input {
+  border: none;
+  background-color: #70C1B3;
+  border: 2px solid #53a194;
+  border-radius: 5px;
+  padding: 7px 10px;
+  outline: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px -2px #585757BF;
+  display: block;
+  margin: 5px;
+}
+
+.form__button {
+  border: none;
+  background-color: #F25F5C;
+  border: 2px solid rgb(138, 55, 53);
+  border-radius: 5px;
+  padding: 7px 10px;
+  outline: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px -2px #585757BF;
+  display: block;
+  margin-left: 80%;
+  cursor: pointer;
+}
